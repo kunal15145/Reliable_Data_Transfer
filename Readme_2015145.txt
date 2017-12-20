@@ -1,0 +1,20 @@
+Go Back N and its features
+
+1. Cumulative Ack done using Go back n and its reciever
+2. Sequence number: same as in TCP
+3. Retransmissions
+4. Detecting duplicates and discarding them.
+5. Congestion control (TCP Reno)
+6. Flow Control
+
+Selective Repeat and its features
+
+1. Cumulative Ack done using Go back n and its reciever
+2. Sequence number: same as in TCP
+3. Retransmissions
+4. Detecting duplicates and discarding them.
+
+
+Packet Drop in linux with 30% probability
+
+sudo iptables -A INPUT -m statistic --mode random --probability 0.3 -j DROP
